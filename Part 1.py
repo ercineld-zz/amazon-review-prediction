@@ -2,7 +2,7 @@ from pyspark import SparkConf, SparkContext
 import collections
 conf = SparkConf().setMaster("local").setAppName("AmazonRatings")
 sc = SparkContext.getOrCreate()
-lines=sc.textFile("file:/usr/local/Cellar/apache-spark/datasets/ratings_Electronics.csv")
+lines=sc.textFile("file:/filepath/ratings_Electronics.csv")
 
 values=lines.map(lambda line: line.split(','))
 #number of records
