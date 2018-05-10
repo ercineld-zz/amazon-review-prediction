@@ -6,12 +6,16 @@ Amazon Product Reviews and Helpfulness Score
 
   The number of reviews on Amazon has grown significantly over the years. Customers who made purchases on Amazon provide reviews by rating the product from 1 to 5 stars and sharing a text summary of their experience and opinions of the product. The ratings of a product then are averaged to provide an overall product rating. We analyzed how Amazon customers write reviews and what type of ratings they give in a specific category in order to find underlying statistical trends providing insights into inner workings of Amazon’s review system. We trained various classifier models using a training set of preprocessed reviews. The classifier predicts whether the review is helpful or not. The performance of the classifiers was tested on a test set containing 30% of the dataset.
  
-- Paper: asd
+- Paper: All the details about the project.
 
-- Recipe: asd
+- Recipe: Simple "how to" file for the project.
 
-- Part 1: asd
+- Part 1: Code part 1
 
-- Part 2: asd
+- Part 2: Code part 2
 
-- Part 3: asd
+- Part 3: Code part 3
+
+Furthermore, Zeppelin notebook files in the JSON format can be found in the folder. Those can be used by simply importing into Apache Zeppelin.
+
+**Methods: TF-IDF vectorization, Vector assembler and a few machine learning methods via MLlib.**
